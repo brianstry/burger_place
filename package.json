@@ -1,0 +1,31 @@
+{
+  "name": "burger_place",
+  "version": "1.0.0",
+  "description": "a way to track burgers added to my menu and what has been eaten",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianstry/burger_place.git"
+  },
+  "keywords": [
+    "burger",
+    "eating",
+    "school"
+  ],
+  "author": "Brian Strylowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianstry/burger_place/issues"
+  },
+  "homepage": "https://github.com/brianstry/burger_place#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}
